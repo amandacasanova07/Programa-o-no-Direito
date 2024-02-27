@@ -1,1 +1,7 @@
-Trabalho 1
+a. Data Center é uma instalação física que armazena uma infraestutura de computação, como servidores, unidades de armazenamento de dados e equipamentos de rede. 
+A LGPD, de forma geral, tem como objetivos estabelecer diretrizes para coleta, armazenamento, processamento e proteção de dados pessoais. 
+Dessa forma, como a lei lida com a proteção dos dados pessoais e os data centers possuem unidades de armazenamento de dados, esses espaços físicos também devem se adequar aos preceitos da LGPD e, por exemplo, precisam de um rigoroso monitoramento desse ambiente com medidas técnicas que garantam a segurança dos dados.
+Fontes: https://aws.amazon.com/pt/what-is/data-center/; https://thriveti.com.br/veja-a-relacao-entre-data-center-e-a-lei-geral-de-protecao-de-dados-lgpd/. 
+b. Os formatos de arquivos de dados proprietários são desenvolvidos e mantidos por uma entidade específica, enquanto os formatos de arquivos de dados abertos não estão vinculados a nenhuma entidade e são mais acessíveis aos diferentes softwares e sistemas que não encontram restrições para operar tais formatos, uma vez que não dependem do software proprietário.
+b.1. Exemplos de formatos abertos: .mp3; .png; JSON; XML. Exemplos de formatos fechados: .xlx; .doc; .dwg; .ppt. 
+b.2. Dados públicos são aqueles disponibilizados para a sociedade e de seu interesse. Normalmente esses dados são orinundos da atividade do poder público. Por isso, a partir de uma análise teórica da situação, os formatos abertos seríam preferíveis para disponobilização de dados públicos pois garantem que independentemente do software utilizado por um cidadão, as informações pertinentes poderão ser acessadas sem nenhuma modificação impertinente na formatação. 

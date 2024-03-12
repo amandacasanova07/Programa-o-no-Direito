@@ -1,1 +1,13 @@
+Estrutura de decisão
+# Definição de altura para entrar em montanha-russa
 
+Altura=1.45
+if(Altura>=1.50):
+    print("Divirta-se :)")
+else:
+    print("Desculpe, você não pode entrar :(")
+
+Estrutura de repetição
+for n in range(0,5):
+    x=n*n+5*n+2
+    print(x)

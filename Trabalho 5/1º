@@ -1,1 +1,13 @@
+valores = [2,12,7,8,5,17,3,9,13]
 
+for passnum in range (len(valores)-1,0,-1):
+    for i in range (passnum):
+        if valores[i] > valores[i+1]:
+            temp = valores[i]
+            valores[i] = valores [i+1]
+            valores[i+1] = temp
+            
+print(valores)
+
+
+[2, 3, 5, 7, 8, 9, 12, 13, 17]

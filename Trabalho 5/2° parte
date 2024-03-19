@@ -1,0 +1,20 @@
+frase = "Oi, professor. Tudo bem?"
+
+vogais = "aeiouAEIOU"
+
+for letra in frase:
+    if letra in vogais:
+        print(letra)
+
+O
+i
+o
+e
+o
+u
+o
+e
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal

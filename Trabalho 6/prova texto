@@ -1,0 +1,52 @@
+# Definindo as variáveis
+numero1 = 10
+numero2 = 20
+numero3 = 30
+numero4 = 40
+
+frase = "22 im in Paris baby"
+
+palavra = "France"
+
+# Média aritmética dos quatro números
+media = (numero1 + numero2 + numero3 + numero4) / 4
+
+# Quadrado de um dos números (número1)
+quadrado_numero1 = numero1 ** 2
+
+# Dobro de um dos números (número2)
+dobro_numero2 = numero2 * 2
+
+# Quantidade de letras na palavra
+quantidade_letras_palavra = len(palavra)
+
+# Quantidade de espaços em branco na frase
+quantidade_espacos_frase = frase.count(' ')
+
+# Verifica se o primeiro número é maior que o segundo
+primeiro_maior_que_segundo = numero1 > numero2
+
+# Encontra o maior número entre os quatro
+maior_numero = max(numero1, numero2, numero3, numero4)
+
+# Imprime os resultados
+print("Média aritmética dos quatro números:", media)
+print("Quadrado do número 1:", quadrado_numero1)
+print("Dobro do número 2:", dobro_numero2)
+print("Quantidade de letras na palavra:", quantidade_letras_palavra)
+print("Quantidade de espaços em branco na frase:", quantidade_espacos_frase)
+print("O primeiro número é maior que o segundo:", primeiro_maior_que_segundo)
+print("O maior número é:", maior_numero)
+
+Print
+Média aritmética dos quatro números: 25.0
+Quadrado do número 1: 100
+Dobro do número 2: 40
+Quantidade de letras na palavra: 6
+Quantidade de espaços em branco na frase: 4
+O primeiro número é maior que o segundo: False
+O maior número é: 40
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal

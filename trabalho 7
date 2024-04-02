@@ -1,0 +1,38 @@
+Questão 2: e) arquivo é um conjunto de dados, que descreve uma ou um conjunto de informações ao qual se dá um nome.
+Questão 3: Usando da abstração as pessoas conseguem se distrair da complexidade, construindo conceitos e dividindo o mundo em partes, para assim simplificar e fazer da realidade cada vez mais palpável. 
+Questão 4: Para otimizar processos e tarefas repetitivas no geral e, mais tarde, para expandir a habilidade humana. 
+Questão 5: As IAs não podem ser responsabilizados civil ou penalmente por suas tomadas de decisão. Uma decisão médica, por exemplo, leva em conta critérios subjetivos (morais). uma rede neural artificial é uma rede difícil de explicar as decisões, por isso no caso dos impréstimos, onde o consumidor tem o direito de saber porque ele seria negado, é difícil a utilização dessa IA, mas ela pode ser utilizada como auxiliador de tomada de decisão médica, por exemplo. Arvore de decisão é um outro tipo de algoritmo consegue tomar decisões e explicá-las a partir de critérios claros.
+Questão 6: No fundo todo arquivo é binário, a diferença é que no arquivo de texto os zeros e uns sempre são caracteres. Os bytes representam sempre caracteres. Os arquivos de texto as sequencias de bytes sempre são caracteres, já o binário pode ganhar diversos tipos de formas, inclusive caracteres.
+Questão 7: O arquivo privado não quer dizer que ele é mais seguro ou que o arquivo tem um dono, mas o formato do arquivo tem um dono. Dados públicos é um dado proveniente da atuação estatal, é recomendação do TCU que o dado publico seja disponibilizado em formato aberto para que o usuário não fique a merce do provedor.
+Questão 8: Protocolo de comunicação é um conjunto de regras que estabelece como os programas de computadores (sistemas) vão se comunicar na internet, ou seja, o formato das mensagens, a ordem de disparo, etc. O protocolo aberto tem seus códigos e especificações acessíveis ao público, em contrapartida o protocolo proprietário pertence a uma empresa que exige licenças e permissões. Usar protocolos proprietários dificulta a entrada de novos atores no cenário da internet, pois uma outra empresa precisaria de permissão da dona do protocolo para resolver determinado problema que na realidade já está solucionado. Por isso o uso protocolo proprietário pode dificultar o desenvolvimento de novas aplicações e essa entrada de novos atores no mercado.
+Questão 9: 
+a) O sistema operacional é um programa de computador que oferece interface entre os componentes físicos (hardware) e os outros programas do computador (software).
+b) Não, por exemplo existe o Windows, Linux, Mac IOS.
+c) Não é, pois, conforme o STJ argumenta, o sistema operacional é uma parte essencial do computador, havendo ainda o livre arbítrio do consumidor de comprar a marca de computador que quiser sendo que algumas delas também tem o livre arbítrio de fornecer máquinas que só funcionem com seus sistemas que normalmente são gratuitos.
+certas marcas de computador sem o sistema operacional e 
+Questão 10: 
+a) A abragencia inclui datacenteres estrangeiros porque a LGPD trata de dados captados no Brasil.
+b) 1) O servidor de aplicação, ou seja, os donos dos aplicativos podem estabelecer regras próprias, no entanto essas diretrizes ainda estão sob o guarda-chuva da legislação local. 
+b) 2) O tema ainda está em discussão, porém hoje já está sendo implementada políticas de retirada de conteúdo evidentemente lesivo.
+Questão 11:
+a) For e while
+b) Por meio de definição de blocos pelo uso de dois pontos em uma linha e por indentação nas linhas seguintes, de forma que as linhas indentadas fazem partes de um mesmo bloco. 
+c) A concatenação de strings que é quando o operador mais é usado entre duas strings (textos) em que ele concatena essas duas em uma única e adição de números que é quando o operador mais é utilizado entre dois números e ele os soma. 
+d) Função é um bloco de código reutilizável que realiza uma tarefa específica, também pode ser definida como um pedaço de um programa.
+e) É definida pela palavra chave Def, mais um nome, a lsita de parametros da função separado por parentesis, seguida por dois pontos e um bloco de comando. 
+f) as estruturas são: if, if-else, if-elif-else. 
+Exemplo 1:
+if idade > 18:
+  print ("maior de idade")
+Exemplo 2: 
+if idade > 18:
+  print ("maior de idade)
+else
+  print ("menor de idade") 
+Exemplo 3:
+if idade > 18:
+  print ("maior de idade")
+elif idade > 12: 
+  print ("adolescente")
+else:
+  print ("criança") 

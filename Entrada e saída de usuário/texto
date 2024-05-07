@@ -1,0 +1,130 @@
+Exercício 1:
+def imprimir_info(nome, idade, cidade, sep=' ', end='\n'):
+    print("Nome:", nome, sep=sep, end='; ')
+    print("Idade:", idade, sep=sep, end='; ')
+    print("Cidade:", cidade, sep=sep, end=end)
+
+# Exemplo de uso da função
+imprimir_info("Amanda", 25, "Rio de Janeiro")
+
+Nome: Amanda;Idade: 25;Cidade: Rio de Janeiro
+
+Exercício 2:
+def calcular():
+    # Pedir ao usuário dois números e a operação desejada
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+    # Calcular o resultado com base na operação especificada
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        # Verificar divisão por zero
+        if num2 == 0:
+            print("Erro: divisão por zero!")
+            return
+        resultado = num1 / num2
+    else:
+        print("Operação inválida!")
+        return
+
+    # Imprimir o resultado da operação
+    print("Resultado:", resultado)
+
+# Exemplo de uso da função
+calcular()
+
+Resultado:
+Digite o primeiro número: 
+2
+Digite o segundo número: 
+3
+Digite a operação desejada (+, -, *, /): 
+*
+Resultado: 6.0
+
+Questão 3:
+def lista_de_compras():
+    # Solicitar ao usuário os itens da lista de compras
+    entrada = input("Digite os itens da lista de compras, separados por vírgula: ")
+
+    # Dividir a entrada em itens individuais usando a vírgula como separador
+    itens = entrada.split(',')
+
+    # Imprimir os itens em linhas separadas usando um laço
+    print("Lista de compras:")
+    for item in itens:
+        print("-",item.strip())  # strip() remove espaços em branco extras ao redor do item
+
+# Exemplo de uso da função
+lista_de_compras()
+
+Resultado:
+Digite os itens da lista de compras, separados por vírgula: 
+arroz, feijão, chuchu, nescau, tody
+Lista de compras:
+- arroz
+- feijão
+- chuchu
+- nescau
+- tody
+
+Questão 4:
+def celsius_para_fahrenheit():
+    # Solicitar ao usuário a temperatura em graus Celsius
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+
+    # Converter Celsius para Fahrenheit usando a fórmula
+    fahrenheit = (celsius * 9/5) + 32
+
+    # Imprimir o resultado da conversão
+    print("A temperatura em Fahrenheit é:", fahrenheit)
+
+# Exemplo de uso da função
+celsius_para_fahrenheit()
+
+Resultado:
+Digite a temperatura em graus Celsius: 
+27
+A temperatura em Fahrenheit é: 80.6
+
+Questão 5:
+def digitar_nomes():
+    nomes = []  # Lista para armazenar os nomes digitados
+
+    while True:
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")
+        
+        # Verificar se o usuário digitou 'sair'
+        if nome.lower() == 'sair':
+            break  # Sai do loop
+        
+        nomes.append(nome)  # Adiciona o nome à lista
+    
+    # Imprime todos os nomes digitados, um por linha
+    for nome in nomes:
+        print(nome)
+
+# Exemplo de uso da função
+digitar_nomes()
+
+Resultado: 
+Digite um nome (ou 'sair' para encerrar): 
+amanda
+Digite um nome (ou 'sair' para encerrar): 
+isabel
+Digite um nome (ou 'sair' para encerrar): 
+fernanda
+Digite um nome (ou 'sair' para encerrar): 
+lara
+Digite um nome (ou 'sair' para encerrar): 
+sair
+amanda
+isabel
+fernanda
+lara
